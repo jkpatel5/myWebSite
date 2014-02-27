@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    // Required javascript
+    <script src="js/min/jquery-v1.10.2.min.js"></script>
+    <script src="js/min/modernizr-custom-v2.7.1.min.js"></script>
+    <script src="js/min/jquery-finger-v0.1.0.min.js"></script>
+	
+    // Flickerplate
+    <script src="js/min/flickerplate.min.js"></script>
+    <link href="css/flickerplate.css" rel="stylesheet" type="text/css">
+<script>
+$(document).ready(function(){ $('.flicker-example').flicker({
+        'arrows' : true,
+        'auto_flick' : true,
+        'auto_flick_delay' : 6,
+        'block_text' : true,
+        'dot_alignment' : 'center',
+        'dot_navigation' : true,
+        'flick_animation' : 'transform-slide',
+        'theme' : 'light'
+    });
+});
+</script>
+
+</head>
+	<body>
+
+<div class="flicker-example" data-auto-flick-delay="6" data-dot-alignment="middle" data-theme="light">
+    <ul>
+        <li>
+            <div class="flick-title">Jay Patel</div>
+            <div class="flick-sub-text">Welcome to my SITE</div>
+        </li>
+        <li>
+            <div class="flick-title">About Me</div>
+            <div class="flick-sub-text">Just a normal guy</div>
+        </li>
+        <li>
+            <div class="flick-title">Find me</div>
+            <div class="flick-sub-text"></div>
+        </li>
+    </ul>
+</div>
+
+	</body>
+</html>
