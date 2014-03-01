@@ -218,6 +218,13 @@ p{
 	transform:rotate(360deg);
 }
 
+.github-roll {
+	background-image: url('img/social/github-white.png');
+}
+.github-roll:hover {
+	background-image: url('img/social/light.png');
+}
+
 .twitter-roll {
 	background-image: url('img/social/twitter-48gray-circle.png');
 }
