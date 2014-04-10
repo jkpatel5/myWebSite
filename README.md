@@ -1,1 +1,1 @@
-This is my weebsite. 
+This is my website. 
